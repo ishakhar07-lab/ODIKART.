@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>OdiKart | Discover Odisha. Taste Odisha.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     TOP NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+
+  <a href="#home" class="brand">
+
+    <div class="brand-logo">
+      <span>Odi</span><b>Kart</b>
+      <i>🛒</i>
+    </div>
+
+    <small>Discover Odisha • Taste Odisha • Order Odisha</small>
+
+  </a>
+
+  <nav id="nav">
+
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#foods">Foods</a>
+    <a href="#festivals">Festivals</a>
+    <a href="#about">About</a>
+
+  </nav>
+
+  <div class="nav-right">
+
+    <button onclick="openCart()" class="cart-btn">
+      🛒
+      <span id="cartCount">0</span>
+    </button>
+
+    <button onclick="toggleMenu()" class="menu-btn">
+      ☰
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+  <div class="paint orange-paint"></div>
+  <div class="paint green-paint"></div>
+
+  <div class="temple-decoration">
+    🛕
+  </div>
+
+  <div class="hero-text">
+
+    <div class="mini-title">
+      ✦ AUTHENTIC ODIA FOOD EXPERIENCE
+    </div>
+
+    <h1>
+      Discover Odisha.<br>
+      <span>Taste Odisha.</span><br>
+      Order Odisha.
+    </h1>
+
+    <p>
+      Bringing Odisha's traditional flavours, regional cuisines
+      and festival delicacies closer to every home.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#foods" class="primary-btn">
+        Explore Foods →
+      </a>
+
+      <a href="#about" class="secondary-btn">
+        Our Story
+      </a>
+
+    </div>
+
+    <div class="hero-note">
+      <span>🌿</span>
+      Traditional Food • Local Flavours • Rich Heritage
+    </div>
+
+  </div>
+
+
+  <!-- HERO FOOD -->
+
+  <div class="hero-food">
+
+    <div class="food-shadow"></div>
+
+    <div class="food-plate">
+
+      <img
+        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+        alt="Traditional food"
+      >
+
+    </div>
+
+    <div class="floating-tag tag-one">
+      🍛 Dalma
+    </div>
+
+    <div class="floating-tag tag-two">
+      🥟 Pitha
+    </div>
+
+    <div class="floating-tag tag-three">
+      ⭐ Chhena Poda
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     BRAND STRIP
+===================================================== -->
+
+<section class="brand-strip">
+
+  <span>ODISHA'S FLAVOURS</span>
+  <b>✦</b>
+
+  <span>TRADITIONAL RECIPES</span>
+  <b>✦</b>
+
+  <span>LOCAL FOOD MAKERS</span>
+  <b>✦</b>
+
+  <span>FESTIVAL SPECIALS</span>
+  <b>✦</b>
+
+  <span>ODISHA'S FLAVOURS</span>
+
+</section>
+
+
+<!-- =====================================================
+     APP EXPERIENCE
+===================================================== -->
+
+<section class="app-section">
+
+  <div class="section-heading">
+
+    <div class="mini-title">
+      ✦ HOW ODICART WORKS
+    </div>
+
+    <h2>
+      From Odisha's kitchen<br>
+      <span>to your doorstep.</span>
+    </h2>
+
+    <p>
+      Discover, choose, add to cart and order your favourite
+      traditional Odia food.
+    </p>
+
+  </div>
+
+
+  <div class="phones-wrapper">
+
+
+    <!-- PHONE 1 -->
+
+    <div class="phone-card phone-left">
+
+      <div class="phone-label">
+        HOME SCREEN
+      </div>
+
+      <div class="phone">
+
+        <div class="notch"></div>
+
+        <div class="app-top">
+
+          <strong>
+            <span class="mini-logo">O</span>diKart
+          </strong>
+
+          <span>🛒</span>
+
+        </div>
+
+        <div class="location">
+          📍 Bhubaneswar
+        </div>
+
+        <div class="search">
+          🔍 Search your favourite Odia food...
+        </div>
+
+        <div class="app-banner">
+
+          <div>
+            <small>AUTHENTIC</small>
+            <strong>ODIA FOOD</strong>
+            <em>Now at your doorstep</em>
+          </div>
+
+        </div>
+
+        <h4>Explore Categories</h4>
+
+        <div class="app-categories">
+
+          <div>🥟<small>Pitha</small></div>
+          <div>🍮<small>Sweets</small></div>
+          <div>🍛<small>Meals</small></div>
+          <div>🌿<small>Specials</small></div>
+
+        </div>
+
+        <h4>Featured Food</h4>
+
+        <div class="mini-product">
+
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=300&q=80">
+
+          <div>
+            <strong>Chhena Poda</strong>
+            <small>Traditional dessert</small>
+            <b>₹180</b>
+          </div>
+
+          <button onclick="addToCart('Chhena Poda',180)">
+            +
+          </button>
+
+        </div>
+
+        <div class="hidden-odisha">
+          <strong>Discover Hidden Odisha</strong>
+          <small>
+            Traditional foods from different parts of Odisha.
+          </small>
+        </div>
+
+        <div class="phone-nav">
+          <span>⌂<small>Home</small></span>
+          <span>◉<small>Categories</small></span>
+          <span>🛒<small>Cart</small></span>
+          <span>●<small>Account</small></span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PHONE 2 -->
+
+    <div class="phone-card phone-main">
+
+      <div class="phone-label">
+        FOOD DETAILS
+      </div>
+
+      <div class="phone">
+
+        <div class="notch"></div>
+
+        <div class="app-header">
+          ←
+          <strong>Food Details</strong>
+          ♡
+        </div>
+
+        <img
+          class="detail-image"
+          src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85"
+          alt="Dessert"
+        >
+
+        <div class="detail-content">
+
+          <h2>Chhena Poda</h2>
+
+          <small>Traditional Odia dessert</small>
+
+          <div class="rating">
+            ★ 4.8
+            <span>(1.2k reviews)</span>
+          </div>
+
+          <strong class="price">₹180</strong>
+
+          <p>
+            A classic sweet from Odisha made with fresh
+            chhena, sugar and a hint of cardamom.
+            Soft inside and caramelized outside.
+          </p>
+
+          <h5>Choose Quantity</h5>
+
+          <div class="quantity">
+            <button>−</button>
+            <strong>1</strong>
+            <button>+</button>
+          </div>
+
+          <button
+            class="add-large"
+            onclick="addToCart('Chhena Poda',180)"
+          >
+            Add to Cart
+          </button>
+
+          <h5>Also Try</h5>
+
+          <div class="also-try">
+
+            <div>
+              🥮
+              <small>Rasabali</small>
+              <b>₹160</b>
+            </div>
+
+            <div>
+              🥟
+              <small>Manda Pitha</small>
+              <b>₹120</b>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PHONE 3 -->
+
+    <div class="phone-card phone-right">
+
+      <div class="phone-label">
+        MY CART
+      </div>
+
+      <div class="phone">
+
+        <div class="notch"></div>
+
+        <div class="app-header">
+          ←
+          <strong>My Cart</strong>
+          🗑
+        </div>
+
+        <div class="cart-product">
+
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=200&q=80">
+
+          <div>
+            <strong>Chhena Poda</strong>
+            <span>₹180</span>
+
+            <div class="small-quantity">
+              − &nbsp; 1 &nbsp; +
+            </div>
+          </div>
+
+        </div>
+
+        <div class="cart-product">
+
+          <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=200&q=80">
+
+          <div>
+            <strong>Rasabali</strong>
+            <span>₹160</span>
+
+            <div class="small-quantity">
+              − &nbsp; 1 &nbsp; +
+            </div>
+          </div>
+
+        </div>
+
+        <div class="cart-summary">
+
+          <div>
+            <span>Subtotal</span>
+            <b>₹340</b>
+          </div>
+
+          <div>
+            <span>Delivery Charge</span>
+            <b>₹40</b>
+          </div>
+
+          <hr>
+
+          <div class="total">
+            <span>Total</span>
+            <b>₹380</b>
+          </div>
+
+          <button onclick="openOrder()">
+            Proceed to Checkout
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PHONE 4 -->
+
+    <div class="phone-card phone-order">
+
+      <div class="phone-label">
+        PLACE ORDER
+      </div>
+
+      <div class="phone">
+
+        <div class="notch"></div>
+
+        <div class="app-header">
+          ←
+          <strong>Place Order</strong>
+          ×
+        </div>
+
+        <div class="order-block">
+
+          <h4>Delivery Address</h4>
+
+          <div class="address">
+            📍
+            <div>
+              <strong>Home</strong>
+              <small>
+                123, Forest Park,<br>
+                Bhubaneswar, Odisha
+              </small>
+            </div>
+          </div>
+
+          <h4>Payment Method</h4>
+
+          <label>
+            <input type="radio" checked>
+            UPI
+          </label>
+
+          <label>
+            <input type="radio">
+            Debit / Credit Card
+          </label>
+
+          <label>
+            <input type="radio">
+            Cash on Delivery
+          </label>
+
+          <h4>Order Summary</h4>
+
+          <div class="summary-line">
+            <span>Items Total</span>
+            <b>₹340</b>
+          </div>
+
+          <div class="summary-line">
+            <span>Delivery</span>
+            <b>₹40</b>
+          </div>
+
+          <div class="summary-line grand">
+            <span>Total</span>
+            <b>₹380</b>
+          </div>
+
+          <button onclick="openOrder()">
+            Place Order
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     BENEFITS
+===================================================== -->
+
+<section class="benefits">
+
+  <div class="benefit">
+
+    <div>🌿</div>
+
+    <h3>Authentic Taste</h3>
+
+    <p>
+      Traditional recipes and regional flavours.
+    </p>
+
+  </div>
+
+  <div class="benefit">
+
+    <div>👨‍🍳</div>
+
+    <h3>Support Local</h3>
+
+    <p>
+      Connecting customers with local food makers.
+    </p>
+
+  </div>
+
+  <div class="benefit">
+
+    <div>🛵</div>
+
+    <h3>Easy Ordering</h3>
+
+    <p>
+      Discover and order traditional foods easily.
+    </p>
+
+  </div>
+
+  <div class="benefit">
+
+    <div>🛕</div>
+
+    <h3>Rich Heritage</h3>
+
+    <p>
+      Bringing Odisha's culinary stories forward.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CATEGORIES
+===================================================== -->
+
+<section class="categories" id="categories">
+
+  <div class="section-heading">
+
+    <div class="mini-title">
+      ✦ EXPLORE ODICART
+    </div>
+
+    <h2>
+      A box full of<br>
+      <span>Odisha.</span>
+    </h2>
+
+  </div>
+
+
+  <div class="category-grid">
+
+    <article class="category category-one">
+
+      <div class="category-number">01</div>
+
+      <div class="category-icon">🍛</div>
+
+      <h3>Odisha Cuisines</h3>
+
+      <p>
+        Dalma, Santula, Besara, Saga,
+        Khata and traditional meals.
+      </p>
+
+      <a href="#foods">
+        Explore →
+      </a>
+
+    </article>
+
+
+    <article class="category category-two">
+
+      <div class="category-number">02</div>
+
+      <div class="category-icon">⭐</div>
+
+      <h3>Special Dishes</h3>
+
+      <p>
+        Chhena Poda, Rasabali, Dahibara,
+        Aloo Dum and more.
+      </p>
+
+      <a href="#foods">
+        Explore →
+      </a>
+
+    </article>
+
+
+    <article class="category category-three">
+
+      <div class="category-number">03</div>
+
+      <div class="category-icon">🎉</div>
+
+      <h3>Festival Dishes</h3>
+
+      <p>
+        Raja, Nuakhai, Kumar Purnima,
+        Prathamastami and Makar Sankranti.
+      </p>
+
+      <a href="#festivals">
+        Explore →
+      </a>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOODS
+===================================================== -->
+
+<section class="foods" id="foods">
+
+  <div class="section-heading centered">
+
+    <div class="mini-title">
+      ✦ FEATURED FLAVOURS
+    </div>
+
+    <h2>
+      Taste something<br>
+      <span>truly Odia.</span>
+    </h2>
+
+  </div>
+
+
+  <div class="food-grid">
+
+
+    <article class="food-card">
+
+      <div class="food-image">
+
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85">
+
+        <span>REGIONAL</span>
+
+      </div>
+
+      <div class="food-info">
+
+        <h3>Odisha Regional Meal Box</h3>
+
+        <p>
+          Dalma · Santula · Besara · Saga · Khata · Rice
+        </p>
+
+        <div>
+          <strong>₹249</strong>
+
+          <button onclick="addToCart('Odisha Regional Meal Box',249)">
+            Add to Cart
+          </button>
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <article class="food-card">
+
+      <div class="food-image">
+
+        <img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=700&q=85">
+
+        <span>POPULAR</span>
+
+      </div>
+
+      <div class="food-info">
+
+        <h3>Odisha Snack Box</h3>
+
+        <p>
+          Bara · Dahibara · Aloo Dum · Mudhi · Chakuli
+        </p>
+
+        <div>
+          <strong>₹199</strong>
+
+          <button onclick="addToCart('Odisha Snack Box',199)">
+            Add to Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <article class="food-card">
+
+      <div class="food-image">
+
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85">
+
+        <span>ICONIC</span>
+
+      </div>
+
+      <div class="food-info">
+
+        <h3>Chhena Poda</h3>
+
+        <p>
+          Caramelized cottage-cheese dessert from Odisha.
+        </p>
+
+        <div>
+
+          <strong>₹180</strong>
+
+          <button onclick="addToCart('Chhena Poda',180)">
+            Add to Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <article class="food-card">
+
+      <div class="food-image">
+
+        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=85">
+
+        <span>PITHA</span>
+
+      </div>
+
+      <div class="food-info">
+
+        <h3>Pitha Box</h3>
+
+        <p>
+          Manda · Kakara · Enduri · Arisa · Chakuli
+        </p>
+
+        <div>
+
+          <strong>₹299</strong>
+
+          <button onclick="addToCart('Odisha Pitha Box',299)">
+            Add to Cart
+          </button>
+
+        </div>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FESTIVALS
+===================================================== -->
+
+<section class="festivals" id="festivals">
+
+  <div class="festival-intro">
+
+    <div class="mini-title">
+      ✦ CELEBRATE THE ODIA WAY
+    </div>
+
+    <h2>
+      Every festival<br>
+      has a <span>flavour.</span>
+    </h2>
+
+    <p>
+      Odisha's festivals are incomplete without
+      traditional food, family and celebration.
+    </p>
+
+  </div>
+
+
+  <div class="festival-list">
+
+    <div>
+      <span>🌸</span>
+      <strong>Raja</strong>
+      <small>Traditional sweets & Pithas</small>
+    </div>
+
+    <div>
+      <span>🌾</span>
+      <strong>Nuakhai</strong>
+      <small>New harvest celebration</small>
+    </div>
+
+    <div>
+      <span>🌕</span>
+      <strong>Kumar Purnima</strong>
+      <small>Festival delicacies</small>
+    </div>
+
+    <div>
+      <span>🪔</span>
+      <strong>Prathamastami</strong>
+      <small>Traditional family feast</small>
+    </div>
+
+    <div>
+      <span>☀️</span>
+      <strong>Makar Sankranti</strong>
+      <small>Seasonal traditional foods</small>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about" id="about">
+
+  <div class="about-art">
+
+    <div class="paint-circle"></div>
+
+    <div class="about-food">
+      🍛
+    </div>
+
+    <div class="heritage-stamp">
+      ODISHA<br>
+      ❤️<br>
+      HERITAGE
+    </div>
+
+  </div>
+
+
+  <div class="about-text">
+
+    <div class="mini-title">
+      ✦ OUR VISION
+    </div>
+
+    <h2>
+      More than just food...<br>
+      <span>It's Odisha!</span>
+    </h2>
+
+    <p>
+      Odisha has a remarkable culinary heritage.
+      From everyday regional meals to special festival
+      dishes, food is deeply connected with culture,
+      family and tradition.
+    </p>
+
+    <p>
+      OdiKart is our idea to bring these flavours to
+      people outside Odisha and help traditional Odia
+      food reach a wider audience.
+    </p>
+
+    <div class="signature">
+      Made with ❤️ for Odisha
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="final-cta">
+
+  <div class="cta-food">
+    🥟
+  </div>
+
+  <div>
+
+    <div class="mini-title">
+      ✦ YOUR ODISHA FOOD JOURNEY
+    </div>
+
+    <h2>
+      Ready to discover<br>
+      <span>Odisha?</span>
+    </h2>
+
+    <a href="#foods">
+      Start Exploring →
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+  <div class="footer-brand">
+
+    <div class="brand-logo">
+      <span>Odi</span><b>Kart</b> 🛒
+    </div>
+
+    <p>
+      Discover Odisha. Taste Odisha. Order Odisha.
+    </p>
+
+  </div>
+
+  <div class="footer-links">
+
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#foods">Foods</a>
+    <a href="#festivals">Festivals</a>
+    <a href="#about">Our Story</a>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 OdiKart • Bringing Odisha's traditional flavours to every home.
+  </div>
+
+</footer>
+
+
+<!-- =====================================================
+     CART MODAL
+===================================================== -->
+
+<div class="modal" id="cartModal">
+
+  <div class="modal-box">
+
+    <button class="close" onclick="closeCart()">×</button>
+
+    <div class="mini-title">
+      ✦ YOUR CART
+    </div>
+
+    <h2>Your Odisha favourites</h2>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-total">
+
+      <span>Total</span>
+
+      <strong>
+        ₹<span id="cartTotal">0</span>
+      </strong>
+
+    </div>
+
+    <button class="modal-action" onclick="openOrder()">
+      Continue to Order →
+    </button>
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     ORDER MODAL
+===================================================== -->
+
+<div class="modal" id="orderModal">
+
+  <div class="modal-box">
+
+    <button class="close" onclick="closeOrder()">×</button>
+
+    <div class="mini-title">
+      ✦ PLACE YOUR ORDER
+    </div>
+
+    <h2>Bring Odisha home.</h2>
+
+    <form onsubmit="placeOrder(event)">
+
+      <input
+        id="customerName"
+        type="text"
+        placeholder="Your Name"
+        required
+      >
+
+      <input
+        id="customerPhone"
+        type="tel"
+        placeholder="Phone Number"
+        required
+      >
+
+      <textarea
+        id="customerAddress"
+        placeholder="Delivery Address"
+        rows="4"
+        required
+      ></textarea>
+
+      <select required>
+
+        <option value="">
+          Select Payment Method
+        <
